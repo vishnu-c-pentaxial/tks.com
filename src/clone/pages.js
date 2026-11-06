@@ -1,16 +1,6 @@
 import manifest from '../site/pages/manifest.json';
 
-const bodies = import.meta.glob('../site/pages/*/body.html', {
-  eager: true,
-  query: '?raw',
-  import: 'default',
-});
 const heads = import.meta.glob('../site/pages/*/head.html', {
-  eager: true,
-  query: '?raw',
-  import: 'default',
-});
-const scriptSources = import.meta.glob('../site/pages/*/scripts.json', {
   eager: true,
   query: '?raw',
   import: 'default',
@@ -21,17 +11,9 @@ function slugFromKey(key) {
 }
 
 const pagesBySlug = {};
-for (const [key, value] of Object.entries(bodies)) {
-  const slug = slugFromKey(key);
-  pagesBySlug[slug] = { ...(pagesBySlug[slug] || {}), body: value };
-}
 for (const [key, value] of Object.entries(heads)) {
   const slug = slugFromKey(key);
-  pagesBySlug[slug] = { ...(pagesBySlug[slug] || {}), head: value };
-}
-for (const [key, value] of Object.entries(scriptSources)) {
-  const slug = slugFromKey(key);
-  pagesBySlug[slug] = { ...(pagesBySlug[slug] || {}), scripts: JSON.parse(value) };
+  pagesBySlug[slug] = { head: value };
 }
 
 const routes = new Map(manifest.map((entry) => [entry.route, entry]));
@@ -53,6 +35,6 @@ export function getPage(pathname) {
   route = ALIASES[route] || route;
 
   const entry = routes.get(route) || routes.get('/');
-  const data = pagesBySlug[entry.slug] || pagesBySlug.home;
+  const data = pagesBySlug[entry.slug] || pagesBySlug.home || {};
   return { ...entry, ...data };
 }

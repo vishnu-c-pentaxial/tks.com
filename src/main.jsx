@@ -1,4 +1,5 @@
 import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import './app.css';
 import { getPage } from './clone/pages.js';
@@ -10,4 +11,8 @@ applyPageHead(page.head);
 setBodyClass(page.bodyClass);
 setDocumentTitle(page.title);
 
-createRoot(document.getElementById('root')).render(<App page={page} />);
+createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+);

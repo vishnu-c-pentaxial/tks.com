@@ -6,6 +6,7 @@ dist/
 
 # screenshots / comparison output
 shots/
+verification/current/
 
 # logs
 *.log

@@ -1,6 +1,5 @@
-/* Keep React's mount wrappers out of the page's layout so the mirrored
+/* Keep React's mount wrapper out of the page's layout so the mirrored
    Elementor markup behaves exactly as it did in the original document. */
-#root,
-#site-shell {
+#root {
   display: contents;
 }

@@ -52,6 +52,7 @@ function runInlineScript(attrs, text) {
 
 export function replayScripts(scriptList) {
   let cancelled = false;
+  window.__cloneScriptsDone = false;
   const originalWrite = document.write;
 
   // Some third-party snippets call document.write after load, which would
@@ -122,6 +123,13 @@ export function replayScripts(scriptList) {
       }
     } catch (err) {
       console.warn('[clone] could not replay late Elementor hooks', err);
+    }
+
+    window.__cloneScriptsDone = true;
+    try {
+      window.dispatchEvent(new Event('clone:scripts-done'));
+    } catch {
+      /* ignore */
     }
   })();
 

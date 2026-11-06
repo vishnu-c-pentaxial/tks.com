@@ -1,0 +1,589 @@
+{
+  "/": {
+    "name": "home",
+    "metrics": {
+      "title": "- Your Trusted Managed IT Service Provider",
+      "bodyClass": "home wp-singular page-template-default page page-id-4212 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-kit-6 elementor-page elementor-page-4212 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [
+        "Best IT MSP         \n            Solution        \n           For your         \n            Business"
+      ],
+      "h1Count": 1,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 200,
+      "sectionCount": 22,
+      "imgCount": 36,
+      "brokenImages": [],
+      "styleCount": 61,
+      "linkCount": 80,
+      "scriptCount": 95,
+      "jsonScriptCount": 4,
+      "scrollHeight": 7013,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/pricing/": {
+    "name": "pricing",
+    "metrics": {
+      "title": "Pricing - The TKS Group",
+      "bodyClass": "wp-singular page-template-default page page-id-12565 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-kit-6 elementor-page elementor-page-12565 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 159,
+      "sectionCount": 22,
+      "imgCount": 27,
+      "brokenImages": [],
+      "styleCount": 51,
+      "linkCount": 71,
+      "scriptCount": 92,
+      "jsonScriptCount": 4,
+      "scrollHeight": 3676,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/about2/": {
+    "name": "about2",
+    "metrics": {
+      "title": "About Us - The TKS Group",
+      "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-12664 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-12664 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 159,
+      "sectionCount": 17,
+      "imgCount": 25,
+      "brokenImages": [],
+      "styleCount": 48,
+      "linkCount": 72,
+      "scriptCount": 92,
+      "jsonScriptCount": 4,
+      "scrollHeight": 3913,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: $number.numerator is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/contact/": {
+    "name": "contact",
+    "metrics": {
+      "title": "Contact Us - The TKS Group",
+      "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-12651 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-12651 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 146,
+      "sectionCount": 16,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 16,
+      "linkCount": 73,
+      "scriptCount": 83,
+      "jsonScriptCount": 4,
+      "scrollHeight": 2169,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(0, 9, 23)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/booking/": {
+    "name": "booking",
+    "metrics": {
+      "title": "Booking - WioTek IT Solutions",
+      "bodyClass": "wp-singular page-template-default page page-id-12694 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-kit-6 elementor-page elementor-page-12694 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 137,
+      "sectionCount": 14,
+      "imgCount": 17,
+      "brokenImages": [],
+      "styleCount": 16,
+      "linkCount": 64,
+      "scriptCount": 75,
+      "jsonScriptCount": 4,
+      "scrollHeight": 1479,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(19, 20, 65)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/managed-it-services/": {
+    "name": "managed_it_services",
+    "metrics": {
+      "title": "Managed IT Services - The TKS Group",
+      "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-11455 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-11455 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 175,
+      "sectionCount": 16,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 43,
+      "linkCount": 77,
+      "scriptCount": 85,
+      "jsonScriptCount": 4,
+      "scrollHeight": 6040,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/backup-recovery/": {
+    "name": "service_backup_recovery",
+    "metrics": {
+      "title": "Backup & Recovery Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10734 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10734 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 169,
+      "sectionCount": 17,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 40,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4825,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "ReferenceError: monitorErrorLog is not defined",
+      "TypeError: e[l] is not a function"
+    ],
+    "failedLocal": []
+  },
+  "/service/it-consulting/": {
+    "name": "service_it_consulting",
+    "metrics": {
+      "title": "IT Consulting Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10739 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10739 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 169,
+      "sectionCount": 17,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 40,
+      "linkCount": 72,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4467,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/microsoft-365-services/": {
+    "name": "service_microsoft_365_services",
+    "metrics": {
+      "title": "Microsoft 365 Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10636 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10636 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 177,
+      "sectionCount": 18,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 48,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 5344,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/cloud-infrastructure/": {
+    "name": "service_cloud_infrastructure",
+    "metrics": {
+      "title": "Cloud & Infrastructure Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10729 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10729 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 169,
+      "sectionCount": 17,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 40,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4170,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/web-design-development/": {
+    "name": "service_web_design_development",
+    "metrics": {
+      "title": "Web Design & Web Development Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10744 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10744 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 169,
+      "sectionCount": 17,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 40,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4171,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/managed-cybersecurity/": {
+    "name": "service_managed_cybersecurity",
+    "metrics": {
+      "title": "Managed Cybersecurity Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10704 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10704 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 178,
+      "sectionCount": 18,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 49,
+      "linkCount": 72,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 5054,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/service/network-management/": {
+    "name": "service_network_management",
+    "metrics": {
+      "title": "Network Management Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10749 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10749 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 178,
+      "sectionCount": 18,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 49,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4361,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function"
+    ],
+    "failedLocal": []
+  },
+  "/service/digital-marketing/": {
+    "name": "service_digital_marketing",
+    "metrics": {
+      "title": "Digital Marketing Services - WioTek IT Solutions",
+      "bodyClass": "wp-singular service-template service-template-elementor_header_footer single single-service postid-10552 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-10552 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 173,
+      "sectionCount": 18,
+      "imgCount": 18,
+      "brokenImages": [],
+      "styleCount": 44,
+      "linkCount": 73,
+      "scriptCount": 84,
+      "jsonScriptCount": 4,
+      "scrollHeight": 4003,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to script at 'https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: e[l] is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  },
+  "/about/": {
+    "name": "about",
+    "metrics": {
+      "title": "About Us - The TKS Group",
+      "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-12664 wp-custom-logo wp-theme-itfirm wp-child-theme-itfirm-child eio-default redux-page site-h3180 body-default-font heading-default-font site-404-default elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-12664 cht-in-desktop cht-landscape header-sticky e--ua-blink e--ua-edge e--ua-webkit",
+      "h1": [],
+      "h1Count": 0,
+      "pageCount": 1,
+      "headerCount": 1,
+      "footerCount": 1,
+      "contentChildren": 1,
+      "widgetCount": 159,
+      "sectionCount": 17,
+      "imgCount": 25,
+      "brokenImages": [],
+      "styleCount": 48,
+      "linkCount": 72,
+      "scriptCount": 92,
+      "jsonScriptCount": 4,
+      "scrollHeight": 3913,
+      "bodyWidth": 1440,
+      "bodyBg": "rgb(255, 255, 255)",
+      "rootDisplay": "contents"
+    },
+    "consoleErrors": [
+      "The script has an unsupported MIME type ('text/html').",
+      "SecurityError: Failed to register a ServiceWorker for scope ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/') with script ('http://127.0.0.1:5173/site/wp-content/plugins/web-worker-offloading/build/partytown-sw.js'): The script has an unsupported MIME type ('text/html').",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED",
+      "Access to XMLHttpRequest at 'https://thetksgroup.com/wp-admin/admin-ajax.php' from origin 'http://127.0.0.1:5173' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "pageErrors": [
+      "TypeError: $number.numerator is not a function",
+      "ReferenceError: monitorErrorLog is not defined"
+    ],
+    "failedLocal": []
+  }
+}
