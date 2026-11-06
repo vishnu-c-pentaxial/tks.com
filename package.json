@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "mirror": "node scripts/mirror.mjs"
+    "mirror": "node scripts/mirror.mjs",
+    "mirror:pages": "node scripts/mirror-pages.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

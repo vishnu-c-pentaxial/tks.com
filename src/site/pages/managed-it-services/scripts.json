@@ -1,0 +1,393 @@
+[
+  {
+    "attrs": {
+      "id": "web-worker-offloading-js-before"
+    },
+    "text": "\nwindow.partytown = {...(window.partytown || {}), ...{\"lib\":\"/site/wp-content/plugins/web-worker-offloading/build/\",\"globalFns\":[\"gtag\",\"wp_has_consent\",\"gtag\"],\"forward\":[\"dataLayer.push\",\"gtag\",\"dataLayer.push\",\"gtag\"],\"mainWindowAccessors\":[\"_googlesitekitConsentCategoryMap\",\"_googlesitekitConsents\",\"wp_consent_type\",\"wp_fallback_consent_type\",\"wp_has_consent\",\"waitfor_consent_hook\"]}};\n//# sourceURL=web-worker-offloading-js-before\n"
+  },
+  {
+    "attrs": {
+      "id": "web-worker-offloading-js-after"
+    },
+    "text": "\n/* Partytown 0.10.2-dev1727590485751 - MIT builder.io */\nconst t={preserveBehavior:!1},e=e=>{if(\"string\"==typeof e)return[e,t];const[n,r=t]=e;return[n,{...t,...r}]},n=Object.freeze((()=>{const t=new Set;let e=[];do{Object.getOwnPropertyNames(e).forEach((n=>{\"function\"==typeof e[n]&&t.add(n)}))}while((e=Object.getPrototypeOf(e))!==Object.prototype);return Array.from(t)})());!function(t,r,o,i,a,s,c,d,l,p,u=t,f){function h(){f||(f=1,\"/\"==(c=(s.lib||\"/~partytown/\")+(s.debug?\"debug/\":\"\"))[0]&&(l=r.querySelectorAll('script[type=\"text/partytown\"]'),i!=t?i.dispatchEvent(new CustomEvent(\"pt1\",{detail:t})):(d=setTimeout(v,999999999),r.addEventListener(\"pt0\",w),a?y(1):o.serviceWorker?o.serviceWorker.register(c+(s.swPath||\"partytown-sw.js\"),{scope:c}).then((function(t){t.active?y():t.installing&&t.installing.addEventListener(\"statechange\",(function(t){\"activated\"==t.target.state&&y()}))}),console.error):v())))}function y(e){p=r.createElement(e?\"script\":\"iframe\"),t._pttab=Date.now(),e||(p.style.display=\"block\",p.style.width=\"0\",p.style.height=\"0\",p.style.border=\"0\",p.style.visibility=\"hidden\",p.setAttribute(\"aria-hidden\",!0)),p.src=c+\"partytown-\"+(e?\"atomics.js?v=0.10.2-dev1727590485751\":\"sandbox-sw.html?\"+t._pttab),r.querySelector(s.sandboxParent||\"body\").appendChild(p)}function v(n,o){for(w(),i==t&&(s.forward||[]).map((function(n){const[r]=e(n);delete t[r.split(\".\")[0]]})),n=0;n<l.length;n++)(o=r.createElement(\"script\")).innerHTML=l[n].innerHTML,o.nonce=s.nonce,r.head.appendChild(o);p&&p.parentNode.removeChild(p)}function w(){clearTimeout(d)}s=t.partytown||{},i==t&&(s.forward||[]).map((function(r){const[o,{preserveBehavior:i}]=e(r);u=t,o.split(\".\").map((function(e,r,o){var a;u=u[o[r]]=r+1<o.length?u[o[r]]||(a=o[r+1],n.includes(a)?[]:{}):(()=>{let e=null;if(i){const{methodOrProperty:n,thisObject:r}=((t,e)=>{let n=t;for(let t=0;t<e.length-1;t+=1)n=n[e[t]];return{thisObject:n,methodOrProperty:e.length>0?n[e[e.length-1]]:void 0}})(t,o);\"function\"==typeof n&&(e=(...t)=>n.apply(r,...t))}return function(){let n;return e&&(n=e(arguments)),(t._ptf=t._ptf||[]).push(o,arguments),n}})()}))})),\"complete\"==r.readyState?h():(t.addEventListener(\"DOMContentLoaded\",h),t.addEventListener(\"load\",h))}(window,document,navigator,top,window.crossOriginIsolated);\n//# sourceURL=web-worker-offloading-js-after\n"
+  },
+  {
+    "attrs": {
+      "id": "jquery-core-js",
+      "src": "/site/wp-includes/js/jquery/jquery.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "jquery-migrate-js",
+      "src": "/site/wp-includes/js/jquery/jquery-migrate.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "waypoints-js",
+      "src": "/site/wp-content/plugins/case-theme-core/assets/js/lib/waypoints.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "ct-inline-css-js-js",
+      "src": "/site/wp-content/themes/itfirm/elementor/js/ct-inline-css.js"
+    }
+  },
+  {
+    "attrs": {
+      "async": "",
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-W9J9LZ75ES"
+    }
+  },
+  {
+    "attrs": {},
+    "text": "\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-W9J9LZ75ES');\r\n"
+  },
+  {
+    "attrs": {},
+    "text": "document.documentElement.className += \" js\";"
+  },
+  {
+    "attrs": {},
+    "text": "function setREVStartSize(e){\n\t\t\t//window.requestAnimationFrame(function() {\n\t\t\t\twindow.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;\n\t\t\t\twindow.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;\n\t\t\t\ttry {\n\t\t\t\t\tvar pw = document.getElementById(e.c).parentNode.offsetWidth,\n\t\t\t\t\t\tnewh;\n\t\t\t\t\tpw = pw===0 || isNaN(pw) || (e.l==\"fullwidth\" || e.layout==\"fullwidth\") ? window.RSIW : pw;\n\t\t\t\t\te.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);\n\t\t\t\t\te.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);\n\t\t\t\t\te.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);\n\t\t\t\t\te.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);\n\t\t\t\t\te.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);\n\t\t\t\t\te.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);\n\t\t\t\t\te.mh = e.mh===undefined || e.mh==\"\" || e.mh===\"auto\" ? 0 : parseInt(e.mh,0);\n\t\t\t\t\tif(e.layout===\"fullscreen\" || e.l===\"fullscreen\")\n\t\t\t\t\t\tnewh = Math.max(e.mh,window.RSIH);\n\t\t\t\t\telse{\n\t\t\t\t\t\te.gw = Array.isArray(e.gw) ? e.gw : [e.gw];\n\t\t\t\t\t\tfor (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];\n\t\t\t\t\t\te.gh = e.el===undefined || e.el===\"\" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;\n\t\t\t\t\t\te.gh = Array.isArray(e.gh) ? e.gh : [e.gh];\n\t\t\t\t\t\tfor (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\tvar nl = new Array(e.rl.length),\n\t\t\t\t\t\t\tix = 0,\n\t\t\t\t\t\t\tsl;\n\t\t\t\t\t\te.tabw = e.tabhide>=pw ? 0 : e.tabw;\n\t\t\t\t\t\te.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;\n\t\t\t\t\t\te.tabh = e.tabhide>=pw ? 0 : e.tabh;\n\t\t\t\t\t\te.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;\n\t\t\t\t\t\tfor (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];\n\t\t\t\t\t\tsl = nl[0];\n\t\t\t\t\t\tfor (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}\n\t\t\t\t\t\tvar m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);\n\t\t\t\t\t\tnewh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);\n\t\t\t\t\t}\n\t\t\t\t\tvar el = document.getElementById(e.c);\n\t\t\t\t\tif (el!==null && el) el.style.height = newh+\"px\";\n\t\t\t\t\tel = document.getElementById(e.c+\"_wrapper\");\n\t\t\t\t\tif (el!==null && el) {\n\t\t\t\t\t\tel.style.height = newh+\"px\";\n\t\t\t\t\t\tel.style.display = \"block\";\n\t\t\t\t\t}\n\t\t\t\t} catch(e){\n\t\t\t\t\tconsole.log(\"Failure at Presize of Slider:\" + e)\n\t\t\t\t}\n\t\t\t//});\n\t\t  };"
+  },
+  {
+    "attrs": {},
+    "text": "\n\t\t\twindow.RS_MODULES = window.RS_MODULES || {};\n\t\t\twindow.RS_MODULES.modules = window.RS_MODULES.modules || {};\n\t\t\twindow.RS_MODULES.waiting = window.RS_MODULES.waiting || [];\n\t\t\twindow.RS_MODULES.defered = true;\n\t\t\twindow.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};\n\t\t\twindow.RS_MODULES.type = 'compiled';\n\t\t"
+  },
+  {
+    "attrs": {
+      "type": "text/javascript"
+    },
+    "text": "\r\n        jQuery( function($) {\r\n            if ( typeof wc_add_to_cart_params === 'undefined' )\r\n                return false;\r\n\r\n            $(document.body).on( 'added_to_cart', function( event, fragments, cart_hash, $button ) {\r\n                var $pid = $button.data('product_id');\r\n\r\n                $.ajax({\r\n                    type: 'POST',\r\n                    url: wc_add_to_cart_params.ajax_url,\r\n                    data: {\r\n                        'action': 'item_added',\r\n                        'id'    : $pid\r\n                    },\r\n                    success: function (response) {\r\n                        $('.ct-widget-cart-wrap').addClass('open');\r\n                    }\r\n                });\r\n            });\r\n        });\r\n    "
+  },
+  {
+    "attrs": {},
+    "text": "\n\t\t\t\t( () => {\n\t\t\t\t\tconst lazyloadRunObserver = () => {\n\t\t\t\t\t\tconst lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );\n\t\t\t\t\t\tconst lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {\n\t\t\t\t\t\t\tentries.forEach( ( entry ) => {\n\t\t\t\t\t\t\t\tif ( entry.isIntersecting ) {\n\t\t\t\t\t\t\t\t\tlet lazyloadBackground = entry.target;\n\t\t\t\t\t\t\t\t\tif( lazyloadBackground ) {\n\t\t\t\t\t\t\t\t\t\tlazyloadBackground.classList.add( 'e-lazyloaded' );\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\tlazyloadBackgroundObserver.unobserve( entry.target );\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t}, { rootMargin: '200px 0px 200px 0px' } );\n\t\t\t\t\t\tlazyloadBackgrounds.forEach( ( lazyloadBackground ) => {\n\t\t\t\t\t\t\tlazyloadBackgroundObserver.observe( lazyloadBackground );\n\t\t\t\t\t\t} );\n\t\t\t\t\t};\n\t\t\t\t\tconst events = [\n\t\t\t\t\t\t'DOMContentLoaded',\n\t\t\t\t\t\t'elementor/lazyload/observe',\n\t\t\t\t\t];\n\t\t\t\t\tevents.forEach( ( event ) => {\n\t\t\t\t\t\tdocument.addEventListener( event, lazyloadRunObserver );\n\t\t\t\t\t} );\n\t\t\t\t} )();\n\t\t\t"
+  },
+  {
+    "attrs": {
+      "src": "https://accounts.google.com/gsi/client"
+    }
+  },
+  {
+    "attrs": {
+      "data-siwg-config": "{\"clientID\":\"844634084896-v9v54s5qqsqrciipe9pteporsmsjcoas.apps.googleusercontent.com\",\"defaultButtonOptions\":{\"theme\":\"outline\",\"text\":\"signin_with\",\"shape\":\"rectangular\"},\"loginURI\":\"https:\\/\\/thetksgroup.com\\/wp-login.php?action=googlesitekit_auth\",\"isUserLoggedIn\":false,\"isWPLogin\":false,\"isPreview\":false,\"isWooCommerce\":false,\"isExistingUserFlow\":false,\"connectNonce\":\"\",\"followsPostRedirect\":false,\"redirectTo\":\"\",\"redirectCookieName\":\"googlesitekit_auth_redirect_to\",\"redirectCookiePath\":\"\\/\",\"redirectCookieTTL\":0,\"nonceCookieName\":\"googlesitekit_auth_nonce\",\"nonceCookiePath\":\"\\/\",\"nonceCookieTTL\":900,\"shouldShowOneTapPrompt\":false}",
+      "src": "/site/wp-content/plugins/google-site-kit/dist/assets/js/sign-in-with-google-5a9e012872c712a23a12.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "ct-core-main-js",
+      "src": "/site/wp-content/plugins/case-theme-core/assets/js/main.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "notify-js",
+      "src": "/site/wp-content/plugins/case-theme-user/acess/js/notify.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "remodal-js",
+      "src": "/site/wp-content/plugins/case-theme-user/acess/js/remodal.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "ct-user-form-js-extra"
+    },
+    "text": "\nvar casethemesuser = {\"ajax\":\"https://thetksgroup.com/wp-admin/admin-ajax.php\",\"nonce\":\"f15483d080\"};\n//# sourceURL=ct-user-form-js-extra\n"
+  },
+  {
+    "attrs": {
+      "id": "ct-user-form-js",
+      "src": "/site/wp-content/plugins/case-theme-user/acess/js/ct-user-form.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "chaty-js-extra"
+    },
+    "text": "\nvar chaty_settings = {\"chaty_widgets\":[{\"id\":0,\"identifier\":0,\"settings\":{\"cta_type\":\"simple-view\",\"cta_body\":\"\",\"cta_head\":\"\",\"cta_head_bg_color\":\"\",\"cta_head_text_color\":\"\",\"show_close_button\":\"yes\",\"position\":\"left\",\"custom_position\":1,\"bottom_spacing\":\"25\",\"side_spacing\":\"25\",\"icon_view\":\"vertical\",\"default_state\":\"click\",\"cta_text\":\"Contact us\",\"cta_text_color\":\"#333333\",\"cta_bg_color\":\"#ffffff\",\"show_cta\":\"first_click\",\"is_pending_mesg_enabled\":\"off\",\"pending_mesg_count\":\"1\",\"pending_mesg_count_color\":\"#ffffff\",\"pending_mesg_count_bgcolor\":\"#dd0000\",\"widget_icon\":\"chat-base\",\"widget_icon_url\":\"\",\"widget_fa_icon\":\"\",\"font_family\":\"\",\"widget_size\":\"54\",\"custom_widget_size\":\"54\",\"is_google_analytics_enabled\":\"off\",\"bg_blur_effect\":\"off\",\"close_text\":\"Hide\",\"widget_color\":\"rgb(234, 49, 73)\",\"widget_icon_color\":\"#ffffff\",\"widget_rgb_color\":\"234,49,73\",\"has_custom_css\":0,\"custom_css\":\"\",\"widget_token\":\"57b33ad6f9\",\"widget_index\":\"\",\"attention_effect\":\"\"},\"triggers\":{\"has_time_delay\":1,\"time_delay\":0,\"exit_intent\":0,\"has_display_after_page_scroll\":0,\"display_after_page_scroll\":0,\"auto_hide_widget\":0,\"hide_after\":0,\"show_on_pages_rules\":[],\"time_diff\":0,\"has_date_scheduling_rules\":0,\"date_scheduling_rules\":{\"start_date_time\":\"\",\"end_date_time\":\"\"},\"date_scheduling_rules_timezone\":0,\"day_hours_scheduling_rules_timezone\":0,\"has_day_hours_scheduling_rules\":0,\"day_hours_scheduling_rules\":[],\"day_time_diff\":\"\",\"show_on_direct_visit\":0,\"show_on_referrer_social_network\":0,\"show_on_referrer_search_engines\":0,\"show_on_referrer_google_ads\":0,\"show_on_referrer_urls\":[],\"has_show_on_specific_referrer_urls\":0,\"has_traffic_source\":0,\"has_countries\":0,\"countries\":[],\"has_target_rules\":0},\"channels\":[{\"channel\":\"Whatsapp\",\"value\":\"234\",\"hover_text\":\"WhatsApp\",\"svg_icon\":\"\\u003Csvg width=\\\"39\\\" height=\\\"39\\\" viewBox=\\\"0 0 39 39\\\" fill=\\\"none\\\" xmlns=\\\"http://www.w3.org/2000/svg\\\"\\u003E\\u003Ccircle class=\\\"color-element\\\" cx=\\\"19.4395\\\" cy=\\\"19.4395\\\" r=\\\"19.4395\\\" fill=\\\"#49E670\\\"/\\u003E\\u003Cpath d=\\\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\\\" transform=\\\"translate(12.9597 12.9597)\\\" fill=\\\"#FAFAFA\\\"/\\u003E\\u003Cpath d=\\\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\\\" transform=\\\"translate(7.7758 7.77582)\\\" fill=\\\"white\\\" stroke=\\\"white\\\" stroke-width=\\\"0.2\\\"/\\u003E\\u003C/svg\\u003E\",\"is_desktop\":1,\"is_mobile\":1,\"icon_color\":\"rgb(234, 49, 73)\",\"icon_rgb_color\":\"234,49,73\",\"channel_type\":\"Whatsapp\",\"custom_image_url\":\"\",\"order\":\"\",\"pre_set_message\":\"\",\"is_use_web_version\":\"1\",\"is_open_new_tab\":\"1\",\"is_default_open\":\"0\",\"has_welcome_message\":\"0\",\"emoji_picker\":\"1\",\"input_placeholder\":\"Write your message...\",\"chat_welcome_message\":\"\\u003Cp\\u003EHow can I help you? :)\\u003C/p\\u003E\",\"wp_popup_headline\":\"Let&#039;s chat on WhatsApp\",\"wp_popup_nickname\":\"\",\"wp_popup_profile\":\"\",\"wp_popup_head_bg_color\":\"#4AA485\",\"qr_code_image_url\":\"\",\"mail_subject\":\"\",\"channel_account_type\":\"personal\",\"contact_form_settings\":[],\"contact_fields\":[],\"contact_custom_fields\":[],\"url\":\"https://web.whatsapp.com/send?phone=234\",\"mobile_target\":\"\",\"desktop_target\":\"_blank\",\"target\":\"_blank\",\"is_agent\":\"0\",\"agent_data\":[],\"header_text\":\"\",\"header_sub_text\":\"\",\"header_bg_color\":\"\",\"header_text_color\":\"\",\"widget_token\":\"57b33ad6f9\",\"widget_index\":\"\",\"click_event\":\"\",\"is_agent_desktop\":\"0\",\"is_agent_mobile\":\"0\",\"v2_site_key\":\"\",\"v3_site_key\":\"\",\"enable_recaptcha\":\"0\",\"hide_recaptcha_badge\":\"no\",\"viber_url\":\"\"}]}],\"ajax_url\":\"https://thetksgroup.com/wp-admin/admin-ajax.php\",\"data_analytics_settings\":\"on\",\"page_id\":\"11455\",\"product\":{\"title\":\"\",\"sku\":\"\",\"price\":\"\",\"regPrice\":\"\",\"discount\":\"\"},\"lang\":{\"whatsapp_label\":\"WhatsApp Message\",\"whatsapp_button\":\"Send WhatsApp Message\",\"hide_whatsapp_form\":\"Hide WhatsApp Form\",\"emoji_picker\":\"Show Emojis\"}};\n//# sourceURL=chaty-js-extra\n"
+  },
+  {
+    "attrs": {
+      "data-wp-strategy": "defer",
+      "defer": "",
+      "id": "chaty-js",
+      "src": "/site/wp-content/plugins/chaty-pro/js/cht-front-script.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "wp-hooks-js",
+      "src": "/site/wp-includes/js/dist/hooks.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "wp-i18n-js",
+      "src": "/site/wp-includes/js/dist/i18n.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "wp-i18n-js-after"
+    },
+    "text": "\nwp.i18n.setLocaleData( { 'text direction\\u0004ltr': [ 'ltr' ] } );\n//# sourceURL=wp-i18n-js-after\n"
+  },
+  {
+    "attrs": {
+      "id": "swv-js",
+      "src": "/site/wp-content/plugins/contact-form-7/includes/swv/js/index.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "contact-form-7-js-before"
+    },
+    "text": "\nvar wpcf7 = {\n    \"api\": {\n        \"root\": \"https:\\/\\/thetksgroup.com\\/wp-json\\/\",\n        \"namespace\": \"contact-form-7\\/v1\"\n    }\n};\n//# sourceURL=contact-form-7-js-before\n"
+  },
+  {
+    "attrs": {
+      "id": "contact-form-7-js",
+      "src": "/site/wp-content/plugins/contact-form-7/includes/js/index.js"
+    }
+  },
+  {
+    "attrs": {
+      "defer": "",
+      "async": "",
+      "id": "tp-tools-js",
+      "src": "/site/wp-content/plugins/revslider/public/assets/js/rbtools.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "defer": "",
+      "async": "",
+      "id": "revmin-js",
+      "src": "/site/wp-content/plugins/revslider/public/assets/js/rs6.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "chatway-script-js-extra"
+    },
+    "text": "\nvar wpChatwaySettings = {\"widgetId\":\"wmlL5HGGvu4W\",\"emailId\":\"\",\"userId\":\"\",\"token\":\"\",\"userName\":\"\",\"themeName\":\"Itfirm Child\"};\n//# sourceURL=chatway-script-js-extra\n"
+  },
+  {
+    "attrs": {
+      "id": "chatway-script-js",
+      "src": "https://cdn.chatway.app/widget.js?include%5B%5D=faqs&&ver=7b8fe1042b3defa489fc#038;id=wmlL5HGGvu4W"
+    }
+  },
+  {
+    "attrs": {
+      "id": "chatway-frontend-js-extra"
+    },
+    "text": "\nvar chatwaySettings = {\"ajaxURL\":\"https://thetksgroup.com/wp-admin/admin-ajax.php\",\"widgetId\":\"wmlL5HGGvu4W\",\"nonce\":\"9a6817e4ea\"};\n//# sourceURL=chatway-frontend-js-extra\n"
+  },
+  {
+    "attrs": {
+      "data-wp-strategy": "defer",
+      "defer": "",
+      "id": "chatway-frontend-js",
+      "src": "/site/wp-content/plugins/chatway-live-chat/assets/js/frontend.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "bootstrap-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/bootstrap.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "nice-select-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/nice-select.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "match-height-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/match-height-min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "magnific-popup-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/magnific-popup.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "progressbar-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/progressbar.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "wow-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/wow.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "itfirm-main-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/main.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "itfirm-woocommerce-js",
+      "src": "/site/wp-content/themes/itfirm/woocommerce/woocommerce.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "elementor-webpack-runtime-js",
+      "src": "/site/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "elementor-frontend-modules-js",
+      "src": "/site/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "jquery-ui-core-js-before"
+    },
+    "text": "\njQuery.uiBackCompat = true;\n//# sourceURL=jquery-ui-core-js-before\n"
+  },
+  {
+    "attrs": {
+      "id": "jquery-ui-core-js",
+      "src": "/site/wp-includes/js/jquery/ui/core.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "elementor-frontend-js-before"
+    },
+    "text": "\nvar elementorFrontendConfig = {\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Share on Facebook\",\"shareOnX\":\"Share on X\",\"pinIt\":\"Pin it\",\"download\":\"Download\",\"downloadImage\":\"Download image\",\"fullscreen\":\"Fullscreen\",\"zoom\":\"Zoom\",\"share\":\"Share\",\"playVideo\":\"Play Video\",\"previous\":\"Previous\",\"next\":\"Next\",\"close\":\"Close\",\"a11yCarouselPrevSlideMessage\":\"Previous slide\",\"a11yCarouselNextSlideMessage\":\"Next slide\",\"a11yCarouselFirstSlideMessage\":\"This is the first slide\",\"a11yCarouselLastSlideMessage\":\"This is the last slide\",\"a11yCarouselPaginationBulletMessage\":\"Go to slide\"},\"is_rtl\":false,\"breakpoints\":{\"xs\":0,\"sm\":480,\"md\":768,\"lg\":1025,\"xl\":1440,\"xxl\":1600},\"responsive\":{\"breakpoints\":{\"mobile\":{\"label\":\"Mobile Portrait\",\"value\":767,\"default_value\":767,\"direction\":\"max\",\"is_enabled\":true},\"mobile_extra\":{\"label\":\"Mobile Landscape\",\"value\":880,\"default_value\":880,\"direction\":\"max\",\"is_enabled\":false},\"tablet\":{\"label\":\"Tablet Portrait\",\"value\":1024,\"default_value\":1024,\"direction\":\"max\",\"is_enabled\":true},\"tablet_extra\":{\"label\":\"Tablet Landscape\",\"value\":1200,\"default_value\":1200,\"direction\":\"max\",\"is_enabled\":false},\"laptop\":{\"label\":\"Laptop\",\"value\":1366,\"default_value\":1366,\"direction\":\"max\",\"is_enabled\":false},\"widescreen\":{\"label\":\"Widescreen\",\"value\":2400,\"default_value\":2400,\"direction\":\"min\",\"is_enabled\":false}},\"hasCustomBreakpoints\":false},\"version\":\"4.3.6\",\"is_static\":false,\"experimentalFeatures\":{\"additional_custom_breakpoints\":true,\"container\":true,\"nested-elements\":true,\"import-export-customization\":true},\"urls\":{\"assets\":\"https:\\/\\/thetksgroup.com\\/wp-content\\/plugins\\/elementor\\/assets\\/\",\"ajaxurl\":\"https:\\/\\/thetksgroup.com\\/wp-admin\\/admin-ajax.php\",\"uploadUrl\":\"https:\\/\\/thetksgroup.com\\/wp-content\\/uploads\"},\"nonces\":{\"floatingButtonsClickTracking\":\"12068d196f\",\"atomicFormsSendForm\":\"057ef6a59c\"},\"swiperClass\":\"swiper\",\"settings\":{\"page\":[],\"editorPreferences\":[]},\"kit\":{\"active_breakpoints\":[\"viewport_mobile\",\"viewport_tablet\"],\"global_image_lightbox\":\"yes\",\"lightbox_enable_counter\":\"yes\",\"lightbox_enable_fullscreen\":\"yes\",\"lightbox_enable_zoom\":\"yes\",\"lightbox_enable_share\":\"yes\",\"lightbox_title_src\":\"title\",\"lightbox_description_src\":\"description\"},\"post\":{\"id\":12650,\"title\":\"Managed%20IT%20Services%20-%20The%20TKS%20Group\",\"excerpt\":\"\",\"featuredImage\":false}};\n//# sourceURL=elementor-frontend-js-before\n"
+  },
+  {
+    "attrs": {
+      "id": "elementor-frontend-js",
+      "src": "/site/wp-content/plugins/elementor/assets/js/frontend.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "googlesitekit-events-provider-contact-form-7-js",
+      "src": "/site/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-7-3ac287af84a753cfbaa5.js",
+      "defer": ""
+    }
+  },
+  {
+    "attrs": {
+      "id": "googlesitekit-events-provider-content-events-js-before"
+    },
+    "text": "\nwindow._googlesitekit = window._googlesitekit || {};\nwindow._googlesitekit.contentEvents = {\"postID\":11455,\"isReadableSinglePost\":false,\"hasVimeoEmbed\":false,\"wordCount\":0,\"estimatedReadTimeSeconds\":0,\"isLastPageOfMultiPagePost\":false,\"readTimeThresholdPercent\":85,\"minimumReadTimeSeconds\":5};\n//# sourceURL=googlesitekit-events-provider-content-events-js-before\n"
+  },
+  {
+    "attrs": {
+      "id": "googlesitekit-events-provider-content-events-js",
+      "src": "/site/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-90bacb156ab34fa090db.js",
+      "defer": ""
+    }
+  },
+  {
+    "attrs": {
+      "id": "mc4wp-forms-api-js",
+      "defer": "",
+      "src": "/site/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "googlesitekit-events-provider-mailchimp-js",
+      "src": "/site/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-mailchimp-3599fc4663f75d882359.js",
+      "defer": ""
+    }
+  },
+  {
+    "attrs": {
+      "id": "forminator-jquery-validate-js",
+      "src": "/site/wp-content/plugins/forminator/assets/js/library/jquery.validate.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "forminator-form-js",
+      "src": "/site/wp-content/plugins/forminator/assets/forminator-ui/js/forminator-form.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "forminator-front-scripts-js-extra"
+    },
+    "text": "\nvar ForminatorFront = {\"ajaxUrl\":\"https://thetksgroup.com/wp-admin/admin-ajax.php\",\"cform\":{\"processing\":\"Submitting form, please wait\",\"error\":\"An error occurred while processing the form. Please try again\",\"upload_error\":\"An upload error occurred while processing the form. Please try again\",\"pagination_prev\":\"Previous\",\"pagination_next\":\"Next\",\"pagination_go\":\"Submit\",\"gateway\":{\"processing\":\"Processing payment, please wait\",\"paid\":\"Success! Payment confirmed. Submitting form, please wait\",\"error\":\"Error! Something went wrong when verifying the payment\"},\"captcha_error\":\"Invalid CAPTCHA\",\"no_file_chosen\":\"No file chosen\",\"intlTelInput_utils_script\":\"https://thetksgroup.com/wp-content/plugins/forminator/assets/js/library/intlTelInputUtils.js\",\"process_error\":\"Please try again\",\"payment_failed\":\"Payment failed. Please try again.\",\"payment_cancelled\":\"Payment was cancelled\"},\"poll\":{\"processing\":\"Submitting vote, please wait\",\"error\":\"An error occurred saving the vote. Please try again\"},\"quiz\":{\"view_results\":\"View Results\"},\"select2\":{\"load_more\":\"Loading more results\\u2026\",\"no_result_found\":\"No results found\",\"searching\":\"Searching\\u2026\",\"loaded_error\":\"The results could not be loaded.\"}};\n//# sourceURL=forminator-front-scripts-js-extra\n"
+  },
+  {
+    "attrs": {
+      "id": "forminator-front-scripts-js",
+      "src": "/site/wp-content/plugins/forminator/build/front/front.multi.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "forminator-intlTelInput-js",
+      "src": "/site/wp-content/plugins/forminator/assets/js/library/intlTelInput.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "forminator-google-recaptcha-js",
+      "src": "https://www.google.com/recaptcha/api.js?hl=en&onload=forminator_render_captcha&render=explicit&ver=1.38.3"
+    }
+  },
+  {
+    "attrs": {
+      "id": "swiper-js",
+      "src": "/site/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js"
+    }
+  },
+  {
+    "attrs": {
+      "id": "itfirm-cursor-js",
+      "src": "/site/wp-content/themes/itfirm/assets/js/cursor.js"
+    }
+  },
+  {
+    "attrs": {
+      "type": "module"
+    },
+    "text": "\n/*! This file is auto-generated */\nvar e=\"script#wp-emoji-settings\",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error(\"Element missing: \"+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,\"wpEmojiSettingsSupports\"),o=[\"flag\",\"emoji\"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case\"flag\":return n(e,\"\\ud83c\\udff3\\ufe0f\\u200d\\u26a7\\ufe0f\",\"\\ud83c\\udff3\\ufe0f\\u200b\\u26a7\\ufe0f\")?!1:!n(e,\"\\ud83c\\udde8\\ud83c\\uddf6\",\"\\ud83c\\udde8\\u200b\\ud83c\\uddf6\")&&!n(e,\"\\ud83c\\udff4\\udb40\\udc67\\udb40\\udc62\\udb40\\udc65\\udb40\\udc6e\\udb40\\udc67\\udb40\\udc7f\",\"\\ud83c\\udff4\\u200b\\udb40\\udc67\\u200b\\udb40\\udc62\\u200b\\udb40\\udc65\\u200b\\udb40\\udc6e\\u200b\\udb40\\udc67\\u200b\\udb40\\udc7f\");case\"emoji\":return!r(e,\"\\ud83e\\u1fac8\")}return!1}function f(e,t,n,r){let a;const s=(a=\"undefined\"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement(\"canvas\")).getContext(\"2d\",{willReadFrequently:!0}),o=(s.textBaseline=\"top\",s.font=\"600 32px Arial\",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement(\"script\");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if(\"object\"==typeof e&&\"number\"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&\"object\"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if(\"undefined\"!=typeof Worker&&\"undefined\"!=typeof OffscreenCanvas&&\"undefined\"!=typeof URL&&URL.createObjectURL&&\"undefined\"!=typeof Blob)try{var e=\"postMessage(\"+f.toString()+\"(\"+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(\",\")+\"));\",r=new Blob([e],{type:\"text/javascript\"});const a=new Worker(URL.createObjectURL(r),{name:\"wpTestEmojiSupports\"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],\"flag\"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});\n//# sourceURL=https://thetksgroup.com/wp-includes/js/wp-emoji-loader.min.js\n"
+  },
+  {
+    "attrs": {
+      "type": "text/javascript"
+    },
+    "text": "jQuery(function() {jQuery.ajax({url: 'https://thetksgroup.com/wp-admin/admin-ajax.php',type: \"POST\",data: {action: \"forminator_get_nonce\",form_id: \"12416\",},success: function (response) {jQuery('#forminator-module-12416 #forminator_nonce').val( response.data );}});})"
+  },
+  {
+    "attrs": {
+      "type": "text/javascript"
+    },
+    "text": "\r\n\t\t\tjQuery(function () {\r\n\t\t\t\twindow.Forminator_Cform_Paginations = window.Forminator_Cform_Paginations || [];\r\n\t\t\t\t\t\t\t\twindow.Forminator_Cform_Paginations[12416] =\r\n\t\t\t\t\t\t{\"has-pagination\":false,\"pagination-header-design\":\"show\",\"pagination-header\":\"nav\",\"last-steps\":\"Finish\",\"last-previous\":\"Previous\",\"pagination-labels\":\"default\",\"has-paypal\":false};\r\n\r\n\t\t\t\tvar runForminatorFront = function () {\r\n\t\t\t\t\tjQuery('#forminator-module-12416[data-forminator-render=\"0\"]')\r\n\t\t\t\t\t\t.forminatorFront({\"form_type\":\"custom-form\",\"inline_validation\":true,\"print_value\":false,\"rules\":\"\\\"name-1-first-name\\\": \\\"trim\\\",\\\"name-1-first-name\\\": \\\"required\\\",\\\"name-1-last-name\\\": \\\"trim\\\",\\\"name-1-last-name\\\": \\\"required\\\",\\\"email-1\\\": {\\n\\\"required\\\": true,\\\"email\\\": false,},\\n\\\"phone-1\\\": {\\\"required\\\": true,\\\"trim\\\": true,\\\"forminatorPhoneInternational\\\": true,},\\\"text-2\\\": {\\\"required\\\": true,},\\\"text-3\\\": {\\\"required\\\": true,},\\\"radio-1\\\": \\\"required\\\",\\\"consent-1\\\":{\\\"required\\\":true},\\\"consent-2\\\":{\\\"required\\\":true},\",\"messages\":\"\\\"name-1-first-name\\\": \\\"Name is required.\\\",\\n\\\"name-1-last-name\\\": \\\"Last Name is required.\\\",\\n\\\"email-1\\\": {\\n\\\"required\\\": \\\"Enter email address\\\",\\n},\\n\\\"phone-1\\\": {\\n\\\"required\\\": \\\"Enter phone number\\\",\\n\\\"trim\\\": \\\"Enter phone number\\\",\\n\\\"forminatorPhoneInternational\\\": \\\"Please input a valid international phone number.\\\",\\n\\\"phone\\\": \\\"Please input a valid international phone number.\\\",\\n},\\n\\\"text-2\\\": {\\\"required\\\": \\\"Enter Company Name\\\",\\n},\\\"text-3\\\": {\\\"required\\\": \\\"Enter City\\\\\\/State\\\",\\n},\\\"radio-1\\\": \\\"Select a service\\\",\\n\\\"consent-1\\\": {\\\"required\\\":\\\"This field is required. Please check it.\\\"},\\n\\\"consent-2\\\": {\\\"required\\\":\\\"This field is required. Please check it.\\\"},\\n\",\"conditions\":{\"fields\":[],\"relations\":{\"name-1\":[],\"email-1\":[],\"phone-1\":[],\"text-2\":[],\"text-3\":[],\"radio-1\":[],\"radio-4\":[],\"textarea-1\":[],\"captcha-1\":[],\"consent-1\":[],\"consent-2\":[],\"submit\":[]}},\"calendar\":\"{\\\"days\\\":[\\\"Su\\\",\\\"Mo\\\",\\\"Tu\\\",\\\"We\\\",\\\"Th\\\",\\\"Fr\\\",\\\"Sa\\\"],\\\"months\\\":[\\\"Jan\\\",\\\"Feb\\\",\\\"Mar\\\",\\\"Apr\\\",\\\"May\\\",\\\"Jun\\\",\\\"Jul\\\",\\\"Aug\\\",\\\"Sep\\\",\\\"Oct\\\",\\\"Nov\\\",\\\"Dec\\\"]}\",\"paypal_config\":{\"live_id\":\"\",\"sandbox_id\":\"\",\"redirect_url\":\"https:\\/\\/thetksgroup.com\\/managed-it-services\",\"form_id\":12416},\"forminator_fields\":[\"address\",\"calculation\",\"captcha\",\"consent\",\"currency\",\"custom\",\"date\",\"email\",\"gdprcheckbox\",\"group\",\"hidden\",\"html\",\"checkbox\",\"name\",\"number\",\"page-break\",\"password\",\"paypal\",\"phone\",\"postdata\",\"radio\",\"rating\",\"section\",\"select\",\"slider\",\"stripe-ocs\",\"stripe\",\"text\",\"textarea\",\"time\",\"upload\",\"url\",\"signature\"],\"general_messages\":{\"calculation_error\":\"Failed to calculate field.\",\"payment_require_ssl_error\":\"SSL required to submit this form, please check your URL.\",\"payment_require_amount_error\":\"PayPal amount must be greater than 0.\",\"form_has_error\":\"Please correct the errors before submission.\"},\"payment_require_ssl\":false,\"has_loader\":true,\"loader_label\":\"Submitting...\",\"calcs_memoize_time\":300,\"is_reset_enabled\":true,\"has_stripe\":false,\"has_paypal\":false,\"submit_button_class\":\"\"});\r\n\t\t\t\t}\r\n\r\n\t\t\t\tif (window.elementorFrontend) {\r\n\t\t\t\t\tif (typeof elementorFrontend.hooks !== \"undefined\") {\r\n\t\t\t\t\t\telementorFrontend.hooks.addAction('frontend/element_ready/global', function () {\r\n\t\t\t\t\t\t\trunForminatorFront();\r\n\t\t\t\t\t\t});\r\n\t\t\t\t\t}\r\n\t\t\t\t} else {\r\n\t\t\t\t\trunForminatorFront();\r\n\t\t\t\t}\r\n\r\n\t\t\t\t\t\t\t\t\t\tif (typeof ForminatorValidationErrors !== 'undefined') {\r\n\t\t\t\t\tvar forminatorFrontSubmit = jQuery(ForminatorValidationErrors.selector).data('forminatorFrontSubmit');\r\n\t\t\t\t\tif (typeof forminatorFrontSubmit !== 'undefined') {\r\n\t\t\t\t\t\tforminatorFrontSubmit.show_messages(ForminatorValidationErrors.errors);\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\tif (typeof ForminatorFormHider !== 'undefined') {\r\n\t\t\t\t\tvar forminatorFront = jQuery(ForminatorFormHider.selector).data('forminatorFront');\r\n\t\t\t\t\tif (typeof forminatorFront !== 'undefined') {\r\n\t\t\t\t\t\tjQuery(forminatorFront.forminator_selector).find('.forminator-row').hide();\r\n\t\t\t\t\t\tjQuery(forminatorFront.forminator_selector).find('.forminator-pagination-steps').hide();\r\n\t\t\t\t\t\tjQuery(forminatorFront.forminator_selector).find('.forminator-pagination-footer').hide();\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t\tif (typeof ForminatorFormNewTabRedirect !== 'undefined') {\r\n\t\t\t\t\tvar forminatorFront = ForminatorFormNewTabRedirect.url;\r\n\t\t\t\t\tif (typeof forminatorFront !== 'undefined') {\r\n\t\t\t\t\t\twindow.open(ForminatorFormNewTabRedirect.url, '_blank');\r\n\t\t\t\t\t}\r\n\t\t\t\t}\r\n\t\t\t});\r\n\t\t"
+  },
+  {
+    "attrs": {
+      "type": "module"
+    },
+    "text": "\nasync function load(){await new Promise(t=>{\"complete\"===document.readyState?t():window.addEventListener(\"load\",()=>t(),{once:!0})}),\"function\"==typeof requestIdleCallback&&await new Promise(t=>{requestIdleCallback(t)});const t=\"script#optimization-detective-detect-args\",e=document.querySelector(t);if(!(e instanceof HTMLScriptElement))throw new Error(`Missing: ${t}`);const o=JSON.parse(e.text);if(!Array.isArray(o)||2!==o.length||\"string\"!=typeof o[0]||\"object\"!=typeof o[1])throw new Error(\"SCRIPT#optimization-detective-detect-args is not [ string, object ]\");const i=o[0],a=o[1],n=(await import(i)).default;await n(a)}load();\n//# sourceURL=https://thetksgroup.com/wp-content/plugins/optimization-detective/detect-loader.min.js?ver=1.0.0-beta7\n"
+  }
+]
