@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# screenshots / comparison output
+shots/
+
+# logs
+*.log
+
+# generated mirror metadata
+index.raw.html
+mirror-manifest.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
